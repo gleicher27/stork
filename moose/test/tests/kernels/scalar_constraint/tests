@@ -1,0 +1,15 @@
+[Tests]
+  [./kernel]
+    type = 'Exodiff'
+    input = 'scalar_constraint_kernel.i'
+    exodiff = 'scalar_constraint_kernel_out.e'
+    max_parallel = 1
+  [../]
+  
+  [./bc]
+    type = 'Exodiff'
+    input = 'scalar_constraint_bc.i'
+    exodiff = 'scalar_constraint_bc_out.e'
+    max_parallel = 1
+  [../]
+[]

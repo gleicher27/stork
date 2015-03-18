@@ -1,0 +1,10 @@
+[Tests]
+  [./centroid_partitioner_test]
+    type = 'Exodiff'
+    input = 'centroid_partitioner_test.i'
+    exodiff = 'out.e'
+    max_parallel = 4
+    min_parallel = 4
+    scale_refine = 2
+  [../]
+[]

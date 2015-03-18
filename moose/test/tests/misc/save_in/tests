@@ -1,0 +1,10 @@
+[Tests]
+  [./test]
+    type = 'Exodiff'
+    input = 'save_in_test.i'
+    exodiff = 'out.e'
+    scale_refine = 4
+    use_old_floor = True
+    abs_zero = 1e-7
+  [../]
+[]
