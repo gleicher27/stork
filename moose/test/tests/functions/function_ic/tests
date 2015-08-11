@@ -1,7 +1,0 @@
-[Tests]
-  [./test]
-    type = 'Exodiff'
-    input = 'function_ic_test.i'
-    exodiff = 'out.e'
-  [../]
-[]

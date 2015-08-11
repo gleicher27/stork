@@ -1,7 +1,0 @@
-[Tests]
-  [./test]
-    type = 'Exodiff'
-    input = 'internal_side_user_object.i'
-    exodiff = 'internal_side_user_object_out.e'
-  [../]
-[]

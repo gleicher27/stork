@@ -1,7 +1,0 @@
-[Tests]
-  [./test_aniso]
-    type = 'Exodiff'
-    input = 'aniso_diffusion.i'
-    exodiff = 'aniso_diffusion_out.e'
-  [../]
-[]

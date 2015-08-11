@@ -1,7 +1,0 @@
-[Tests]
-  [./test]
-    type = 'Exodiff'
-    input = 'initial_adapt.i'
-    exodiff = 'initial_adapt_out.e'
-  [../]
-[]

@@ -1,7 +1,0 @@
-[Tests]
-  [./nonlinear_source]
-    type = 'Exodiff'
-    input = 'nonlinear_source.i'
-    exodiff = 'nonlinear_source_out.e'
-  [../]
-[]

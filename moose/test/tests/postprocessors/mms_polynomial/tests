@@ -1,8 +1,0 @@
-[Tests]
-  [./test]
-    type = 'Exodiff'
-    input = 'mms_polynomial_test.i'
-    exodiff = 'out.e'
-    valgrind = 'HEAVY'
-  [../]
-[]

@@ -1,7 +1,0 @@
-[Tests]
-  [./test]
-    type = 'Exodiff'
-    input = 'flux_average.i'
-    exodiff = 'flux_average_out.e'
-  [../]
-[]

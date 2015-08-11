@@ -1,7 +1,0 @@
-[Tests]
-  [./test]
-    type = 'Exodiff'
-    input = 'nearest_node_value.i'
-    exodiff = 'nearest_node_value_out.e'
-  [../]
-[]

@@ -1,9 +1,0 @@
-[Tests]
-  [./test]
-    type = 'Exodiff'
-    input = 'adapt_weight_test.i'
-    exodiff = 'out.e-s002'
-    group = 'adaptive'
-    max_parallel = 1
-  [../]
-[]

@@ -1,7 +1,0 @@
-[Tests]
-  [./test]
-    type = 'Exodiff'
-    input = 'uniform_marker.i'
-    exodiff = 'uniform_marker_out.e'
-  [../]
-[]

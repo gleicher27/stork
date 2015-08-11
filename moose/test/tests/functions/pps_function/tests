@@ -1,7 +1,0 @@
-[Tests]
-  [./test_pp_function_test]
-    type = 'Exodiff'
-    input = 'pp_function.i'
-    exodiff = 'out.e'
-  [../]
-[]

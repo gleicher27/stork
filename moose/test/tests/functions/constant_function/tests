@@ -1,7 +1,0 @@
-[Tests]
-  [./test]
-    type = 'Exodiff'
-    input = 'constant_function_test.i'
-    exodiff = 'constant_function_test_out.e'
-  [../]
-[]
