@@ -26,9 +26,8 @@ InputParameters validParams<NeutronicRemoval>()
 }
 
 
-NeutronicRemoval::NeutronicRemoval(const std::string & name,
-                                   InputParameters parameters) :
-    Reaction(name,parameters),
+NeutronicRemoval::NeutronicRemoval(const InputParameters & parameters) :
+    Reaction(parameters),
     _absorption_xs(getMaterialProperty<Real>("absorption_xs_g0"))
 {}
 

@@ -29,8 +29,7 @@ InputParameters validParams<DiffusionNeutronicsMaterial>();
 class DiffusionNeutronicsMaterial : public Material
 {
 public:
-  DiffusionNeutronicsMaterial(const std::string & name,
-                  InputParameters parameters);
+  DiffusionNeutronicsMaterial(const InputParameters & parameters);
 
 protected:
   virtual void computeQpProperties();

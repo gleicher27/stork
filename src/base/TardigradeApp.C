@@ -18,8 +18,8 @@ InputParameters validParams<TardigradeApp>()
   return params;
 }
 
-TardigradeApp::TardigradeApp(const std::string & name, InputParameters parameters) :
-    MooseApp(name, parameters)
+TardigradeApp::TardigradeApp(InputParameters parameters) :
+    MooseApp(parameters)
 {
   srand(processor_id());
 

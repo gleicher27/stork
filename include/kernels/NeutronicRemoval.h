@@ -31,8 +31,7 @@ class NeutronicRemoval : public Reaction
 {
 public:
 
-  NeutronicRemoval(const std::string & name,
-                   InputParameters parameters);
+  NeutronicRemoval(const InputParameters & parameters);
 
 protected:
   virtual Real computeQpResidual();
@@ -42,6 +41,6 @@ protected:
    * This MooseArray will hold the reference we need to our
    * material property from the Material class
    */
-  MaterialProperty<Real> & _absorption_xs;
+  const MaterialProperty<Real> & _absorption_xs;
 };
 #endif //NEUTRONICREMOVAL_H
